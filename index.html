@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+ <html>
+ 
+ <head>
+ 
+ <title>Technology-BBC news</title>
+ 
+ <style type="text/css">
+ 
+ #topbar{
+ width:1360px;
+ margin:0 auto; 
+ height:40px;
+ background-color:black;
+ }
+ body{
+ margin:0;
+ padding:0;
+ font-family:Helvettica;Arial;sans-serif;
+ }
+ 
+ #logo{
+ padding-left:50px;
+ padding-right:15px;
+ margin-top:8px;
+ width:80px;
+ float:left;
+ margin-right:8px; 
+ } 
+ .topbar-section{
+ float:left;
+ border-left:1px #CCCCCC solid;
+ height:100%;
+ }
+ #signin-image{
+ width:30px;
+ margin:10px 15px;
+ float:left;
+ }  
+ #signin-text{
+ color:white;
+ font-weight:bold;
+ font-size:100%;
+position:relative;
+top:10px;
+padding-right:50px;
+} 
+.topbar-menu{
+text-align:right;
+font-weight:bold;
+font-size:100%;
+padding:9px 20px 9px;
+height:25px;
+color:white;
+}
+#searchbox{
+background-color:#FFFFFF;
+border:none;
+font-weight:bold;
+font-size:14px;
+padding:5px; 
+margin:5px 0px 5px; 
+float:left; 
+}
+#magnify{
+width:26px;
+padding:5px 0px;
+}
+.clear{
+clear:both;
+}
+#menu-bar-container{
+ background-color:#BB1919;
+ width:100%;
+ height:70px;
+ } 
+ #menu-bar{
+ width:1000px;
+ margin:auto;
+ }
+ h1{
+ color:white; 
+ padding:0;
+ margin:0;
+ font-size:40px;
+ font-weight:normal;
+ padding-top:10px;
+ }
+ #date{
+ color:white;
+ float:right;
+font-size:30px;
+position:relative;
+bottom:20px;
+ }
+ #menu-bar-2-container{
+ background-color:#A91717;
+ width:100%;
+ }
+ #menu-bar-2{
+ width:1000px;
+ margin:0 auto;
+ height:30px;
+ }
+ #menu-bar-2 a{
+ color:white;
+ text-decoration:none;
+ margin-top:5px;
+ padding:0 10px;
+ border-right:1px solid #BB4545;
+ font-size:18 px;
+ position:relative:
+ top:9px;
+ }
+ #menu-bar-2 a:hover{
+ text-decoration:underline;
+ }
+ .noborder{
+ border:none :important;
+ }
+ #page-container{
+ width:1000px;
+ margin:0 auto;
+ }
+ h2{
+ font-weight:normal;
+ margin-top:40px;
+ font-size:20px;
+ border-bottom:2px solid #a91717;
+ width:105px; 
+ }
+ h3 a{color:black;
+ font-size:30px;
+ text-decoration:none;
+ padding-top:10px;
+ }
+ h3 a:hover{
+ color:#1167a8;
+ 
+ }
+ #article-summary{
+ color:#5a5a5a;
+ width:250px;
+ float:left;
+ } 
+ #article-summary a{
+ text-decoration:none;
+color:#a91717;  
+padding-left:5px;
+} 
+ #article-summary a:hover{
+ color:#1167a8;
+ }
+ #article-container{
+ float:left;
+ width:600px;
+ border-right:1px solid #CCCCCC;
+ padding:20px;
+ }
+ #main-article-image{
+ width:330px;
+ margin-left:20px;
+ }
+ #article-hr{
+ border-top:1px solid #a91717;
+ width:50px;
+ 
+ }
+ #topic-link{
+  text-decoration:none;
+color:#a91717;  
+padding-left:5px;
+ 
+ }
+ .article-link{
+ color:black;
+ text-decoration:none;
+ }
+ #watch-listen{
+ margin-left:20px;
+  
+ }
+ h4{
+ font-weight:normal;
+ font-size:20px;
+ }
+ .article-side-image{
+ float:left;
+ width:90px;
+ margin-right:10px;
+ 
+ }
+ .watch-listen-link{
+ text-decoration:none;
+ color:black;
+ font-weight:bold;
+ font-size:18px;
+ 
+ }
+  .watch-listen-link:hover{
+ color:#1167a8;
+ }
+  </style>
+ </head>
+ 
+ <body>
+ <div id="topbar">
+ 
+<img id="logo" src="https://lh3.googleusercontent.com/nVBmulHy3vAdgd-dzCyzfvFkx5PtrykBesyXxqApvOcRM03WxQCMHw7Yl20A6qU9AADX=s84">
+ 
+ <div id="signin" class="topbar-section">
+ <img id="signin-image" src="Documents/logo.jpg">
+ <span id="signin-text">Sign in</span>   
+ </div>
+ <div class="topbar-section topbar-menu ">
+ Home
+ </div>
+  <div class="topbar-section topbar-menu ">
+ News
+ </div>
+  <div class="topbar-section topbar-menu ">
+ Sport
+ </div>
+  <div class="topbar-section topbar-menu ">
+ Weather
+ </div>
+  <div class="topbar-section topbar-menu ">
+ Shop
+ </div>
+  <div class="topbar-section topbar-menu ">
+ Earth
+ </div>
+  <div class="topbar-section topbar-menu ">
+ Travel
+ </div>
+  <div class="topbar-section topbar-menu ">
+ Capital
+ </div>
+  <div class="topbar-section topbar-menu ">
+ More
+ </div>
+ <div class="topbar-section">
+ <input id="searchbox" type="text" value="Search"> 
+ <input type="image" id="magnify" src="data:image/png;base64,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">
+ </div>
+ </div>
+ <div class="clear"></div>
+ <div id="menu-bar-container">
+ <div id="menu-bar">
+ <h1>NEWS</h1>
+ <div id="date">Sunday 18th june</div>
+ </div>
+ <div class="clear"></div> 
+ <div id="menu-bar-2-container">
+ <div id="menu-bar-2">
+ <a href="">Home</a>
+ <a href="">UK</a>
+ <a href="">World</a>
+ <a href="">Business</a>
+ <a href="">Politics</a>
+ <a href="">Tech</a>
+ <a href="">Science</a>
+ <a href="">Health</a>
+ <a href="">Education</a>
+ <a href="">Entertainment & Arts</a>
+ <a href="">Video & Audio</a>
+ <a href="" class="noborder">More </a>
+ </div>
+ </div>
+ </div>
+ <div class="clear"></div>
+ <div id="page-container"> 
+ <div id="main-article">
+ <h2> Technology</h2>
+ <div id="article-container">
+ <h3><a href="">In Trump,indie games find inspiration</a></h3>
+ <div id="article-summary">
+ <p> The new commander-in-chief has ignited activism in the video gaming community</p>
+ <p>18th june 2017</p><a id="topic-link" href="">Technology</a>
+ <hr id="article-hr" align="left"></hr>
+ <p><a href="" class="article-link">Related content
+E3: Mario caps Nintendo's triumphant comeback</a></p>
+<p><a href=""class="article-link">
+E3: Xbox's vanishing virtual reality strategy</a></p>
+ </div>
+ <img id="main-article-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMwySyeXe0oOj8LxTSF6Q8f4TjC07bYgfB9NixaRMAIiD3vvAt">
+ </div>
+ </div>
+ <div id="watch-listen">
+ <h4>Watch/Listen<h4>
+ <img class="article-side-image" src="documents/1.png">
+ <p><a href="" class="watch-listen-link">Five Robots that are changing everything</a>
+  <span style="font-size:15px">18th june 2017</span></p>
+  <img class="article-side-image" src="documents/2.png">
+ <p><a href="" class="watch-listen-link">A Robot learns to compose its own music</a>
+  <span style="font-size:15px">16th june 2017</span></p>
+  <p><img class="article-side-image" src="documents/3.png"> 
+  <a href="" class="watch-listen-link">Million Dollar Club:the rubik's club</a>
+  <span style="font-size:15px">16th june 2017</span></p>
+  
+ </div>
+ </div> 
+ </body> 
+ </html> 
